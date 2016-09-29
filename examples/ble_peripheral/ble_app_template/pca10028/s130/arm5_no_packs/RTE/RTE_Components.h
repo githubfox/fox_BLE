@@ -4,7 +4,7 @@
  *      *** Do not modify ! ***
  *
  * Project: 'ble_app_template_pca10028_s130' 
- * Target:  'nrf51422_xxac' 
+ * Target:  'nrf51822_xxac' 
  */
 
 #ifndef RTE_COMPONENTS_H
