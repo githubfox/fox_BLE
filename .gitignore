@@ -1,4 +1,6 @@
-OBJ/
+\examples\ble_peripheral\ble_app_template\pca10028\s130\arm5_no_packs\_build
+
+*.o
 
 *.map
 
