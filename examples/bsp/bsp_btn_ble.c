@@ -225,7 +225,7 @@ uint32_t bsp_btn_ble_init(bsp_btn_ble_error_handler_t error_handler, bsp_event_t
 
     m_error_handler = error_handler;
 
-    if (p_startup_bsp_evt != NULL)
+    if (p_startup_bsp_evt != NULL)  //  err_code = bsp_btn_ble_init(NULL, &startup_event); // this IF is NULL
     {
         err_code = startup_event_extract(p_startup_bsp_evt);
         RETURN_ON_ERROR(err_code);

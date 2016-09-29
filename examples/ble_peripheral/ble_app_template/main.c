@@ -730,7 +730,7 @@ static void bsp_event_handler(bsp_event_t event)
             }
             break; // BSP_EVENT_KEY_0
 
-        default:
+        default:  // default other key event normao
             break;
     }
 }
